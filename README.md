@@ -4,7 +4,7 @@ ETL pipeline to load countries data from REST API to PostgreSQL with interactive
 
 ## Setup
 
-1. Configure environment variables in `.env` file
+1. Configure environment variables in `.env` file(see sample vars in .env_example file)
 2. Run `docker-compose up -d` to start PostgreSQL
 3. Install dependencies: `pip install -r requirements.txt`
 4. Run pipeline: `python src/load_countries.py`
